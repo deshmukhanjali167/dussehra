@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img_back {
+    background-image: url("https://image.freepik.com/free-vector/happy-dussehra-background_1017-21145.jpg");
+background-position: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.heading {
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: 'Nosifer', sans-serif;
+    color:#ffff4d;
+    text-shadow: 5px 5px 6px rgb(134, 29, 69);
+    border: 1px solid black;
+    animation: mymove 5s infinite;
+    padding-top: 150px;
+}
+
+
+@keyframes mymove {
+    25% {
+        border: 15px solid #ffff4d;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    body {
+        margin: 0px;
+        padding: 0px;
+       
+      
+    }
+    
+    .img_back {
+        background-image: url("../dassara/image/fire.jpg");
+    background-position: cover;
+        height:300px;
+        width:300px;
+        background-size: cover;
+        
+
+    }
+    
+    .heading {
+        letter-spacing: 10px;
+        font-size: 20px;
+        font-family: 'Nosifer', sans-serif;
+        color:#ffff4d;
+        text-shadow: 5px 5px 6px rgb(134, 29, 69);
+        border: 1px solid black;
+        animation: mymove 5s infinite;
+        padding-top: 100px;
+        margin-left: 14px;
+    }
+    
+    
+    @keyframes mymove {
+        25% {
+            border: 10px solid #ffff4d;
+        }
+    }
+    
+}
